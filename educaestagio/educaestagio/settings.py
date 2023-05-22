@@ -127,16 +127,6 @@ STATICFILES_DIRS = [
 ]
 
 
-# é o caminho onde o django salva os arquivos staticos (collectstatic)
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles')
-
-
-STATICFILES_FINDERS = [
-    'django.contrib.staticfiles.finders.FileSystemFinder',
-    'django.contrib.staticfiles.finders.AppDirectoriesFinder',
-]
-
-
 # django-allauth
 
 AUTHENTICATION_BACKENDS = [

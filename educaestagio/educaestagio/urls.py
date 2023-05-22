@@ -1,7 +1,7 @@
 from django.contrib import admin
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
-from educa.views import home, sobre, registro,\
+from educaestagio.educa.views import home, sobre, registro,\
     UsuarioCreate, CurriculoCreate, CurriculoUpdate, CurriculoDelete, CurriculoList
 
 

@@ -33,7 +33,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'django.contrib.sites',
-    'educa',
+    'educaestagio.educa',
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
@@ -52,7 +52,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 
-ROOT_URLCONF = 'educaestagio.urls'
+ROOT_URLCONF = 'educaestagio.educaestagio.urls'
 
 TEMPLATES = [
     {
@@ -121,9 +121,9 @@ USE_TZ = True
 
 # STATIC_URL = 'https://educastatic-3fbe8.web.app/'
 
-STATIC_URL = 'educa/static/'
+STATIC_URL = '../static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '/educa/static/'),
+    os.path.join(BASE_DIR, '../static/'),
 ]
 
 

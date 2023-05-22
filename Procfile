@@ -1,1 +1,1 @@
-web: gunicorn educaestagio.wsgi --log-file -
+web: gunicorn educaestagio:app

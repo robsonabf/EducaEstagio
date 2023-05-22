@@ -1,6 +1,5 @@
 from django.urls import path, include
 from django.contrib.auth import views as auth_views
-from django.conf.urls.static import static
 from .views import home, sobre, registro,\
     UsuarioCreate, CurriculoCreate, CurriculoUpdate, CurriculoDelete, CurriculoList
 
@@ -21,4 +20,4 @@ urlpatterns = [
     path('formCurriculo/editCurriculo/<int:pk>/', CurriculoUpdate.as_view(), name='editCurriculo'),
     path('formCurriculo/delCurriculo/<int:pk>/', CurriculoDelete.as_view(), name='delCurriculo'),
 
-] + static(settings.STATIC_URL, document_root=settings.STATIC_ROOT)
+]

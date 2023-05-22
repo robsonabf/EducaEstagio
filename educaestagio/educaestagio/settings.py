@@ -121,9 +121,9 @@ USE_TZ = True
 
 # STATIC_URL = 'https://educastatic-3fbe8.web.app/'
 
-STATIC_URL = '/static/'
+STATIC_URL = 'educaestagio/educa/static/'
 STATICFILES_DIRS = [
-    os.path.join(BASE_DIR, '/static/'),
+    os.path.join(BASE_DIR, 'educaestagio/educa/static/'),
 ]
 
 
